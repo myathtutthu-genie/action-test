@@ -1,8 +1,8 @@
 name: Debug
-    on:
+on:
       pull_request:
         types: [opened, synchronize, closed]
-    jobs:
+jobs:
       output-debug:
         runs-on: ubuntu-18.04
         steps:
