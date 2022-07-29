@@ -9,6 +9,6 @@ jobs:
   output-debug:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions-book/github-action-explore-debug@main
+      - uses:myathtutthu-genie/github-action-explore-debug@main
         with:
           jq_selector: .pull_request
